@@ -1,111 +1,114 @@
-# Flask + MySQL Portfolio Website
+# Jing Lyu Portfolio Website
 
-This folder contains the original full-stack implementation of my portfolio website, developed as part of the **Interactive Media Management** program at Sheridan College.
+A responsive portfolio website showcasing selected 3D character, creature, hard-surface, and technical art projects for games, animation, and film.
 
-Unlike the deployed static portfolio, this version demonstrates a database-driven architecture using Flask and MySQL.
+**Live Portfolio**
 
----
-
-## Features
-
-- Flask web application
-- MySQL database integration
-- Dynamic project routing
-- Database-driven portfolio content
-- Responsive front-end
-- Contact form with MySQL storage
-- Environment variable configuration
+https://arrowalrakis.github.io/Lark-Companion/ 
+(GitHub Pages deployment)
 
 ---
 
-## Tech Stack
+## Repository Overview
 
-- Python
-- Flask
-- MySQL
+This repository contains **two implementations** of the portfolio website.
+
+### Static Portfolio (Current)
+
+The version deployed through **GitHub Pages**, designed for recruiters, hiring managers, and portfolio reviews.
+
+Built with:
+
 - HTML5
 - CSS3
-- JavaScript
+- Vanilla JavaScript
+- GitHub Pages
+
+Features:
+
+- Responsive design
+- Demo reel integration (Vimeo)
+- Portfolio filtering
+- Individual project breakdown pages
+- Resume preview and download
+- Contact information
+- Mobile-friendly navigation
 
 ---
 
-## Project Structure
+### Flask + MySQL Version
+
+A previous full-stack implementation is preserved in:
 
 ```text
 flask_mysql_version/
+```
+
+Developed as part of the **Sheridan College Interactive Media Management** program.
+
+This version demonstrates:
+
+- Flask
+- MySQL
+- Dynamic routing
+- Database-driven project content
+- Contact form with MySQL storage
+- Environment variable configuration
+- Responsive front-end implementation
+
+See the README inside `flask_mysql_version/` for local setup instructions.
+
+---
+
+## Featured Projects
+
+- Stylized Characters (Project Seed)
+- Samael Mecha
+- Coraline
+- Water Leviathan
+- Rimerock
+
+---
+
+## Repository Structure
+
+```text
+Portfolio-Website
 │
-├── app.py
-├── portfolio_site.sql
-├── requirements.txt
-├── .env.example
+├── assets/
+│   ├── css/
+│   ├── images/
+│   ├── js/
+│   └── resume/
 │
-├── static/
+├── projects/
 │
-├── templates/
+├── flask_mysql_version/
+│
+├── index.html
+├── portfolio.html
+├── resume.html
+├── contact.html
+├── 404.html
 │
 └── README.md
 ```
 
 ---
 
-## Local Setup
+## Contact
 
-### 1. Clone the repository
+**Email**
 
-```bash
-git clone <repository-url>
-```
+jcranejl@gmail.com
 
-### 2. Install dependencies
+**LinkedIn**
 
-```bash
-pip install -r requirements.txt
-```
+https://www.linkedin.com/in/jinglyu3d/
 
-### 3. Create a MySQL database
+**Vimeo**
 
-Import:
-
-```text
-portfolio_site.sql
-```
-
-### 4. Configure environment variables
-
-Create a `.env` file using `.env.example` as a template.
-
-Example:
-
-```env
-SECRET_KEY=your_secret_key
-
-MYSQL_HOST=localhost
-MYSQL_USER=root
-MYSQL_PASSWORD=your_password
-MYSQL_DB=portfolio_site
-
-FLASK_DEBUG=True
-```
-
-### 5. Run the application
-
-```bash
-python app.py
-```
-
-The application will start locally, typically at:
-
-```
-http://127.0.0.1:5000
-```
-
----
-
-## Why a Static Version?
-
-The public portfolio is deployed as a static website using GitHub Pages for simplicity, speed, and long-term maintainability.
-
-This Flask + MySQL implementation is preserved as a technical reference demonstrating full-stack web development skills.
+https://vimeo.com/user109365545
 
 ---
 
@@ -113,6 +116,6 @@ This Flask + MySQL implementation is preserved as a technical reference demonstr
 
 © Jing Lyu
 
-All artwork, images, videos, and portfolio content remain the intellectual property of Jing Lyu.
+All artwork, renders, images, videos, and project content in this repository are the intellectual property of Jing Lyu.
 
-This source code is provided for demonstration purposes only.
+They may not be copied, redistributed, modified, or used for commercial or personal purposes without prior written permission.
